@@ -1,0 +1,77 @@
+<script lang="ts">
+	import favicon from '$lib/assets/favicon.svg';
+
+	let { children } = $props();
+</script>
+
+<svelte:head>
+	<link rel="icon" href={favicon} />
+	<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+	<link href="https://fonts.googleapis.com" rel="preconnect" />
+	<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&display=swap"
+		rel="stylesheet"
+	/>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+		rel="stylesheet"
+	/>
+	<script async src="https://tally.so/widgets/embed.js"></script>
+	<script>
+		tailwind.config = {
+			darkMode: 'class',
+			theme: {
+				extend: {
+					colors: {
+						primary: '#019863',
+						'background-light': '#f5f8f7',
+						'background-dark': '#0f231c',
+					},
+					fontFamily: { display: 'Be Vietnam Pro' },
+					borderRadius: {
+						DEFAULT: '0.5rem',
+						lg: '1rem',
+						xl: '1.5rem',
+						full: '9999px',
+					},
+				},
+			},
+		};
+	</script>
+	<style>
+		.material-symbols-outlined {
+			font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+		}
+	</style>
+</svelte:head>
+
+<div
+	class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200"
+>
+	<div
+		class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden"
+	>
+		<div class="layout-container flex h-full grow flex-col">
+			<div class="flex flex-1 justify-center">
+				<div class="layout-content-container flex flex-col w-full max-w-5xl">
+					{@render children()}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- extend: {
+					colors: {
+						primary: '#019863',
+						'background-light': '#f5f8f7',
+						'background-dark': '#0f231c',
+					},
+					fontFamily: { display: 'Be Vietnam Pro' },
+					borderRadius: {
+						DEFAULT: '0.5rem',
+						lg: '1rem',
+						xl: '1.5rem',
+						full: '9999px',
+					},
+				}, -->

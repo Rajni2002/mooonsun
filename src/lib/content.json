@@ -1,0 +1,123 @@
+{
+  "brand": {
+    "name": "Mooonsun",
+    "logo": {
+      "svg": "<svg fill=\"none\" viewbox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M39.5563 34.1455V13.8546C39.5563 15.708 36.8773 17.3437 32.7927 18.3189C30.2914 18.916 27.263 19.2655 24 19.2655C20.737 19.2655 17.7086 18.916 15.2073 18.3189C11.1227 17.3437 8.44365 15.708 8.44365 13.8546V34.1455C8.44365 35.9988 11.1227 37.6346 15.2073 38.6098C17.7086 39.2069 20.737 39.5564 24 39.5564C27.263 39.5564 30.2914 39.2069 32.7927 38.6098C36.8773 37.6346 39.5563 35.9988 39.5563 34.1455Z\" fill=\"currentColor\"></path><path clip-rule=\"evenodd\" d=\"M10.4485 13.8519C10.4749 13.9271 10.6203 14.246 11.379 14.7361C12.298 15.3298 13.7492 15.9145 15.6717 16.3735C18.0007 16.9296 20.8712 17.2655 24 17.2655C27.1288 17.2655 29.9993 16.9296 32.3283 16.3735C34.2508 15.9145 35.702 15.3298 36.621 14.7361C37.3796 14.246 37.5251 13.9271 37.5515 13.8519C37.5287 13.7876 37.4333 13.5973 37.0635 13.2931C36.5266 12.8516 35.6288 12.3647 34.343 11.9175C31.79 11.0295 28.1333 10.4437 24 10.4437C19.8667 10.4437 16.2099 11.0295 13.657 11.9175C12.3712 12.3647 11.4734 12.8516 10.9365 13.2931C10.5667 13.5973 10.4713 13.7876 10.4485 13.8519ZM37.5563 18.7877C36.3176 19.3925 34.8502 19.8839 33.2571 20.2642C30.5836 20.9025 27.3973 21.2655 24 21.2655C20.6027 21.2655 17.4164 20.9025 14.7429 20.2642C13.1498 19.8839 11.6824 19.3925 10.4436 18.7877V34.1275C10.4515 34.1545 10.5427 34.4867 11.379 35.027C12.298 35.6207 13.7492 36.2054 15.6717 36.6644C18.0007 37.2205 20.8712 37.5564 24 37.5564C27.1288 37.5564 29.9993 37.2205 32.3283 36.6644C34.2508 36.2054 35.702 35.6207 36.621 35.027C37.4573 34.4867 37.5485 34.1546 37.5563 34.1275V18.7877ZM41.5563 13.8546V34.1455C41.5563 36.1078 40.158 37.5042 38.7915 38.3869C37.3498 39.3182 35.4192 40.0389 33.2571 40.5551C30.5836 41.1934 27.3973 41.5564 24 41.5564C20.6027 41.5564 17.4164 41.1934 14.7429 40.5551C12.5808 40.0389 10.6502 39.3182 9.20848 38.3869C7.84205 37.5042 6.44365 36.1078 6.44365 34.1455L6.44365 13.8546C6.44365 12.2684 7.37223 11.0454 8.39581 10.2036C9.43325 9.3505 10.8137 8.67141 12.343 8.13948C15.4203 7.06909 19.5418 6.44366 24 6.44366C28.4582 6.44366 32.5797 7.06909 35.657 8.13948C37.1863 8.67141 38.5667 9.3505 39.6042 10.2036C40.6278 11.0454 41.5563 12.2684 41.5563 13.8546Z\" fill=\"currentColor\" fill-rule=\"evenodd\"></path></svg>"
+    }
+  },
+  "header": {
+    "nav": [
+      { "label": "Features", "href": "#features" }
+    ],
+    "cta": {
+      "label": "Request a Demo",
+      "href": "#"
+    }
+  },
+  "hero": {
+    "heading": "Build Your SaaS Faster.",
+    "description": "A clear, concise value proposition that explains what your product does and for whom in one or two lines.",
+    "primaryCta": {
+      "label": "Join Waitlist",
+      "href": "#"
+    },
+    "secondaryCta": {
+      "label": "Request Demo",
+      "href": "#"
+    }
+  },
+  "socialProof": {
+    "text": "Trusted by 100+ innovative startups worldwide",
+    "logos": [
+      {
+        "alt": "Placeholder logo 1",
+        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBWPYNbZ60F1JDfNM0xd166pocReQf_Jxq_oTyhTE2TlOBvLpLFpmkHHvNc6_pEhFg0GtrIMk5MuABEFVwF0tmxOV2xDE-6t8lwv38TBN3XUPunu3AakfaUY7GeaulAiDO7YJsLVGzOccPXu_CJB3BxGrg92uhVGWMZd0ZD23m_IpJN204DL4EmUEfFw4Oj5WYVVJjxopB1qq92y8Lt6dn-1pGPr4WBFblwNDwfsol-uFS6uqctJ4eBQ57LpsC1w3-LTxKGXW207Jg"
+      },
+      {
+        "alt": "Placeholder logo 2",
+        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuD_hm2_ISA79iTqv-u_ga7mJbDs-z0PKA1yJ0OltHvhqOV6Ztxd09rRup8yUIB6envrV7OhathUKiwgB1_ZvtEe1r1qjqrHEt5A2aRkkUZ45BruDMpKPB4PQ5bxYbl5YUGxdg5Zkdh5qC1zq_9ACPAfl3n7iA7bHhcPB8AKOLJIvdrKJuyUgfbMu-ZtgjdHqpWKYUT3Y40UYhRtmqQBCdzzC_GlNA0l-aWGIwZ6ThCd5FMTv7cCcST1aZRyNcsRKM0JPTpxMXHb0Og"
+      },
+      {
+        "alt": "Placeholder logo 3",
+        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuAwJJ5mi8lvwqGfg3fTuGShtidLYYRUe-QPJ5UPm0Y2Kq_ZSkBLpQKVj2at5KAF-s7YvGD6pc3pfYUKlR2j5lsFmOftMHtPRn-NEqtoX69Wm8lLt40FNXzbD-pNctufUeAKfKqD0qtNtzJeyoSiY8GB8k1p5wLs0Goz5pX20NpuHv5Bw-Km9sywiq98nXof3kSmVLI_6TTTiHgi6uqNdqw3JxPZEoooelAsHZZmAluJYopKBa3Qoe59JSWaq2dMct-ib32-HrLhXMU"
+      },
+      {
+        "alt": "Placeholder logo 4",
+        "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCpZBgE8zc6QzxlswnSFkl-RyMjWoGMIspTRjZNCrfeUeZ729KAi4pBb8YpATG0MP73UMIrKhtvqCPF349AC7a0JbMNDtYZSwaJ5Pt4DY7VU7f8T4_vuFuGEGeGgXwEJ_22-Tumzsbpib2QF-X8WAjQO1mECvm_h1IEu3mmKjhWkaLTi8qkLvTB68gQXL-bPs0hfs1DUtzWXTPPlGEYa2HLFvLOTTaJhdRJfCNies9I3Nrx8XmJrs6-2IoRCzZS8w-HNVqVkH6jAC8"
+      }
+    ]
+  },
+  "features": {
+    "heading": "Game-changing features to launch faster",
+    "description": "Our features are designed to help you build, deploy, and scale with ease.",
+    "items": [
+      {
+        "icon": "bolt",
+        "title": "Launch in Minutes",
+        "description": "Go from idea to live product in record time with our streamlined setup."
+      },
+      {
+        "icon": "model_training",
+        "title": "Automate Everything",
+        "description": "Focus on your product, not the busywork. We handle the repetitive tasks."
+      },
+      {
+        "icon": "bar_chart",
+        "title": "Scale with Confidence",
+        "description": "Our robust infrastructure grows with you from your first user to millions."
+      }
+    ]
+  },
+  "featureShowcase": [
+    {
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBqbI1YEPyLtlCCw4nNzaZEaSaf38yFXEdmv9m_lnmv__a15xBTwHGxRwbbxgx7nJzOSAA4QdH95vulUJ_-A9BKkQLfjBOyIFgrIUGho0qF09mhe2ddpYVtsYdammU8einSZke2nPyeYZtC2-rytQEGsA7Dmq55LTlMozHTGsKjQbqghcrifiOfd9M27qhedgoNSCDlRYrKPGtOXiiX7plTgBBCsL8NFStRuhfQNNNIdwm2gSRWRMZj8KKSNVyy5PnFeOysfkdbIw8",
+      "alt": "Abstract UI screenshot showing a dashboard interface",
+      "title": "Intuitive Dashboard",
+      "description": "Manage your entire operation from a single, clean interface designed for maximum productivity and clarity.",
+      "link": { "label": "Learn more", "href": "#" }
+    },
+    {
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDltooiww-e_FzzT6ey7THu1Ytf3gNdXH4mFFNsrvJ6MvwrDv3SpkK2-bHwOZQBuzd_4ktP7xjWpzFG8qJatd0wNtTgaXxDKR9qGO614T_xnaGFqtP07ptd3z_Bej3kQGKP0zVgPjT8Da7OqBMOaMC5eZmR5ZyyEIzwTNq5EcPcgrt92UC5Fxacdy1QnNs8Ez6tcc8uasAlO0VfMbeGKaJ8q-yum1GqB7U1PmP1EoRFmq4wHccxVwo33LWV4_w3n0fOZdOOWrUaapo",
+      "alt": "Abstract UI screenshot showing various charts and graphs",
+      "title": "Powerful Analytics",
+      "description": "Gain actionable insights into your performance with our comprehensive and easy-to-understand analytics tools.",
+      "link": { "label": "Learn more", "href": "#" }
+    }
+  ],
+  "founderStory": {
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQOtwEASG4f5TkWs30ma34Q79_3Ct-iGMzzSRh-85PgPbOISHElfhjR6Te4MMca1piDG_vuOLLxgcM5a6sgOwH6UXjG1tyc5QpS-OIojuMhY_ldbVgJ77eshCFV4GnJmKiw7R2ptKIcWdsJT0Px0k_mwTofhtc3pMx8cRFUsvq4FfHIjwwyKywNzoiZ6qRFIMuT3UBl2miy5HACDVnUG7Jv1arTa4uNMMKswm699QdwRuazskoPv8NREGlajzjEhHY-dy094-sjaQ",
+    "alt": "Portrait of the founder",
+    "greeting": "Hey, it's Alex 👋",
+    "description": "I built this product to solve a problem I faced every day. My mission is to empower creators and entrepreneurs to bring their ideas to life without getting bogged down by technical hurdles."
+  },
+  "metrics": {
+    "heading": "How Mooonsun saves you time and money",
+    "items": [
+      {
+        "value": "100+",
+        "label": "Hours Saved Monthly"
+      },
+      {
+        "value": "25%",
+        "label": "Increase in Conversions"
+      },
+      {
+        "value": "5x",
+        "label": "Faster Deployment"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to change the game?",
+    "description": "Join our waitlist to get early access and be the first to know when we launch.",
+    "button": {
+      "label": "Get Early Access",
+      "href": "#"
+    },
+    "disclaimer": "No spam. Unsubscribe anytime."
+  },
+  "footer": {
+    "copyright": "© 2025 Mooonsun. All rights reserved."
+  }
+}
+
