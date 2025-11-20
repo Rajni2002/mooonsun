@@ -1,0 +1,93 @@
+{
+  "header": {
+    "nav": [{ "label": "Features", "href": "#features" }],
+    "cta": {
+      "label": "Request a Demo",
+      "href": "#"
+    }
+  },
+  "hero": {
+    "heading": "See Your Products Fit—No Hassle, Just Code.",
+    "description": "Plug in our AI-powered virtual try-on widget with a simple script tag and empower your e-commerce brand to boost conversions and slash returns.",
+    "primaryCta": {
+      "label": "Join Waitlist",
+      "href": "#"
+    },
+    "secondaryCta": {
+      "label": "Request Demo",
+      "href": "#"
+    }
+  },
+  "socialProof": {
+    "text": "Trusted by 100+ fashion brands enhancing online sales and customer satisfaction."
+  },
+  "features": {
+    "heading": "Effortless Integration, Powerful Results.",
+    "description": "Designed for B2B e-commerce brands to launch fast and scale confidently.",
+    "items": [
+      {
+        "icon": "bolt",
+        "title": "Quick Deployment",
+        "description": "Add one script tag—no backend changes, no development headaches."
+      },
+      {
+        "icon": "model_training",
+        "title": "AI-Driven Try-On",
+        "description": "Automatically detects product SKUs and renders an on-photo try-on experience."
+      },
+      {
+        "icon": "bar_chart",
+        "title": "Increase Revenue & Reduce Returns",
+        "description": "Drive higher conversion rates and lower costly returns with confidence-building tech."
+      }
+    ]
+  },
+  "featureShowcase": [
+    {
+      "alt": "Dashboard screenshot showing product SKU auto-detection",
+      "title": "Seamless SKU Detection",
+      "description": "Our widget auto-hooks into existing product pages—zero customization needed.",
+      "link": { "label": "Learn more", "href": "#" }
+    },
+    {
+      "alt": "Analytics dashboard displaying customer engagement data",
+      "title": "Actionable Insights",
+      "description": "Track try-on events, conversion lift, and customer engagement through easy-to-use analytics.",
+      "link": { "label": "Learn more", "href": "#" }
+    }
+  ],
+  "founderStory": {
+    "alt": "Portrait of the founder",
+    "greeting": "Hello, I’m Alex 👋",
+    "description": "I created this tool to solve a critical growth obstacle for fashion e-commerce: hesitation due to product fit uncertainty. Now, brands can convert shoppers faster and reduce returns effortlessly."
+  },
+  "metrics": {
+    "heading": "Proven Impact for Your E-Commerce Business",
+    "items": [
+      {
+        "value": "5x",
+        "label": "Faster Time to Market"
+      },
+      {
+        "value": "30%",
+        "label": "Return Rate Reduction"
+      },
+      {
+        "value": "20%",
+        "label": "Conversion Rate Increase"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Elevate your customer experience today.",
+    "description": "Join our waitlist for early access and start transforming how your customers shop online.",
+    "button": {
+      "label": "Get Early Access",
+      "href": "#"
+    },
+    "disclaimer": "No spam. Unsubscribe anytime."
+  },
+  "footer": {
+    "copyright": "© 2025 FitLook. All rights reserved."
+  }
+}

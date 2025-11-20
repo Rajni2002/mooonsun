@@ -15,8 +15,8 @@
     }
   },
   "hero": {
-    "heading": "Build Your SaaS Faster.",
-    "description": "A clear, concise value proposition that explains what your product does and for whom in one or two lines.",
+    "heading": "Virtual Try-On on Your Store in 60 Seconds",
+    "description": "Plug in our AI-powered virtual try-on widget with a simple script tag and empower your e-commerce brand to boost conversions and slash returns.",
     "primaryCta": {
       "label": "Join Waitlist",
       "href": "#"
@@ -27,7 +27,7 @@
     }
   },
   "socialProof": {
-    "text": "Trusted by 100+ innovative startups worldwide",
+    "text": "Trusted by 100+ fashion brands enhancing online sales and customer satisfaction.",
     "logos": [
       {
         "alt": "Placeholder logo 1",
@@ -48,68 +48,68 @@
     ]
   },
   "features": {
-    "heading": "Game-changing features to launch faster",
-    "description": "Our features are designed to help you build, deploy, and scale with ease.",
+    "heading": "Effortless Integration, Powerful Results.",
+    "description": "Designed for B2B e-commerce brands to launch fast and scale confidently.",
     "items": [
       {
         "icon": "bolt",
-        "title": "Launch in Minutes",
-        "description": "Go from idea to live product in record time with our streamlined setup."
+        "title": "Quick Integration",
+        "description": "Add one script tag—no backend changes, no development headaches."
       },
       {
         "icon": "model_training",
-        "title": "Automate Everything",
-        "description": "Focus on your product, not the busywork. We handle the repetitive tasks."
+        "title": "AI-Driven Try-On",
+        "description": "Automatically detects product SKUs and renders an on-photo try-on experience."
       },
       {
         "icon": "bar_chart",
-        "title": "Scale with Confidence",
-        "description": "Our robust infrastructure grows with you from your first user to millions."
+        "title": "Increase Revenue & Reduce Returns",
+        "description": "Drive higher conversion rates and lower costly returns with confidence-building tech."
       }
     ]
   },
   "featureShowcase": [
     {
       "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBqbI1YEPyLtlCCw4nNzaZEaSaf38yFXEdmv9m_lnmv__a15xBTwHGxRwbbxgx7nJzOSAA4QdH95vulUJ_-A9BKkQLfjBOyIFgrIUGho0qF09mhe2ddpYVtsYdammU8einSZke2nPyeYZtC2-rytQEGsA7Dmq55LTlMozHTGsKjQbqghcrifiOfd9M27qhedgoNSCDlRYrKPGtOXiiX7plTgBBCsL8NFStRuhfQNNNIdwm2gSRWRMZj8KKSNVyy5PnFeOysfkdbIw8",
-      "alt": "Abstract UI screenshot showing a dashboard interface",
-      "title": "Intuitive Dashboard",
-      "description": "Manage your entire operation from a single, clean interface designed for maximum productivity and clarity.",
+      "alt": "Dashboard screenshot showing product SKU auto-detection",
+      "title": "Seamless SKU Detection",
+      "description": "Our widget auto-hooks into existing product pages—zero customization needed.",
       "link": { "label": "Learn more", "href": "#" }
     },
     {
       "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDltooiww-e_FzzT6ey7THu1Ytf3gNdXH4mFFNsrvJ6MvwrDv3SpkK2-bHwOZQBuzd_4ktP7xjWpzFG8qJatd0wNtTgaXxDKR9qGO614T_xnaGFqtP07ptd3z_Bej3kQGKP0zVgPjT8Da7OqBMOaMC5eZmR5ZyyEIzwTNq5EcPcgrt92UC5Fxacdy1QnNs8Ez6tcc8uasAlO0VfMbeGKaJ8q-yum1GqB7U1PmP1EoRFmq4wHccxVwo33LWV4_w3n0fOZdOOWrUaapo",
-      "alt": "Abstract UI screenshot showing various charts and graphs",
-      "title": "Powerful Analytics",
-      "description": "Gain actionable insights into your performance with our comprehensive and easy-to-understand analytics tools.",
+      "alt": "Analytics dashboard displaying customer engagement data",
+  "title": "Easy Plug and Play Integration with a Simple Script Tag",
+  "description": "Add our virtual try-on widget to your ecommerce store with just one script tag—no backend changes or complex setup required.",
       "link": { "label": "Learn more", "href": "#" }
     }
   ],
   "founderStory": {
     "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQOtwEASG4f5TkWs30ma34Q79_3Ct-iGMzzSRh-85PgPbOISHElfhjR6Te4MMca1piDG_vuOLLxgcM5a6sgOwH6UXjG1tyc5QpS-OIojuMhY_ldbVgJ77eshCFV4GnJmKiw7R2ptKIcWdsJT0Px0k_mwTofhtc3pMx8cRFUsvq4FfHIjwwyKywNzoiZ6qRFIMuT3UBl2miy5HACDVnUG7Jv1arTa4uNMMKswm699QdwRuazskoPv8NREGlajzjEhHY-dy094-sjaQ",
     "alt": "Portrait of the founder",
-    "greeting": "Hey, it's Alex 👋",
-    "description": "I built this product to solve a problem I faced every day. My mission is to empower creators and entrepreneurs to bring their ideas to life without getting bogged down by technical hurdles."
+    "greeting": "Hello, I’m Alex 👋",
+    "description": "I created this tool to solve a critical growth obstacle for fashion e-commerce: hesitation due to product fit uncertainty. Now, brands can convert shoppers faster and reduce returns effortlessly."
   },
   "metrics": {
-    "heading": "How Mooonsun saves you time and money",
+    "heading": "Proven Impact for Your E-Commerce Business",
     "items": [
       {
-        "value": "100+",
-        "label": "Hours Saved Monthly"
-      },
-      {
-        "value": "25%",
-        "label": "Increase in Conversions"
-      },
-      {
         "value": "5x",
-        "label": "Faster Deployment"
+        "label": "Faster Time to Market"
+      },
+      {
+        "value": "30%",
+        "label": "Return Rate Reduction"
+      },
+      {
+        "value": "20%",
+        "label": "Conversion Rate Increase"
       }
     ]
   },
   "cta": {
-    "heading": "Ready to change the game?",
-    "description": "Join our waitlist to get early access and be the first to know when we launch.",
+    "heading": "Elevate your customer experience today.",
+    "description": "Join our waitlist for early access and start transforming how your customers shop online.",
     "button": {
       "label": "Get Early Access",
       "href": "#"

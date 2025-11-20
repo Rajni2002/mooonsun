@@ -1,4 +1,5 @@
 <script lang="ts">
+  import CTAtallyButton from "$lib/components/ui/CTAtallyButton.svelte"
   import content from "../content.json";
 
   const { hero } = content;
@@ -17,23 +18,16 @@
       {hero.description}
     </p>
     <div class="flex-wrap gap-4 flex justify-center md:justify-start">
-      <button
-        data-tally-open="LZZG1J"
-        data-tally-layout="modal"
-        data-tally-width="700"
-        data-tally-emoji-text="👋"
-        data-tally-emoji-animation="wave"
-        data-tally-auto-close="1000"
-        data-tally-form-events-forwarding="1"
+      <CTAtallyButton
         class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors"
       >
         <span class="truncate">{hero.primaryCta.label}</span>
-      </button>
-      <button
+      </CTAtallyButton>
+      <CTAtallyButton
         class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
       >
         <span class="truncate">{hero.secondaryCta.label}</span>
-      </button>
+      </CTAtallyButton>
     </div>
   </div>
   <div class="hidden md:flex justify-center items-center">

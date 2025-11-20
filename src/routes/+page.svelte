@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Header from '$lib/components/Header.svelte';
 	import Hero from '$lib/components/Hero.svelte';
-	import SocialProof from '$lib/components/SocialProof.svelte';
+	// import SocialProof from '$lib/components/SocialProof.svelte';
 	import Features from '$lib/components/Features.svelte';
 	import FeatureShowcase from '$lib/components/FeatureShowcase.svelte';
 	// import FounderStory from '$lib/components/FounderStory.svelte';
@@ -13,7 +13,7 @@
 <Header />
 <main class="flex-1">
 	<Hero />
-	<SocialProof />
+	<!-- <SocialProof /> -->
 	<Features />
 	<FeatureShowcase />
 	<!-- <FounderStory /> -->
