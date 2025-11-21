@@ -5,19 +5,19 @@
   const { hero } = content;
 </script>
 
-<section class="grid md:grid-cols-2 items-center gap-12 py-20 lg:py-32 px-4">
-  <div class="text-center md:text-left">
+<section class="grid grid-cols-1 md:grid-cols-1 items-center gap-12 py-20 lg:py-32 px-4">
+  <div class="text-center">
     <h1
       class="text-gray-900 dark:text-white text-4xl md:text-6xl font-black leading-tight tracking-tighter mb-4"
     >
       {hero.heading}
     </h1>
     <p
-      class="max-w-xl text-gray-600 dark:text-gray-400 text-lg md:text-xl leading-relaxed mb-8 mx-auto md:mx-0"
+      class="max-w-xl text-gray-600 dark:text-gray-400 text-lg md:text-xl leading-relaxed mb-8 mx-auto"
     >
       {hero.description}
     </p>
-    <div class="flex-wrap gap-4 flex justify-center md:justify-start">
+    <div class="flex-wrap gap-4 flex justify-center">
       <CTAtallyButton
         class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors"
       >
@@ -30,11 +30,13 @@
       </CTAtallyButton>
     </div>
   </div>
-  <div class="hidden md:flex justify-center items-center">
+  <div class="md:flex justify-center items-center">
     <div
-      class="w-full max-w-md aspect-square bg-gray-200 dark:bg-gray-800 rounded-xl flex items-center justify-center"
+      class="w-full md:w-10/12 mx-auto bg-center bg-no-repeat aspect-video bg-cover rounded-lg bg-gray-200 dark:bg-gray-800"
+      data-alt={hero.image.alt}
+			style="background-image: url('{hero.image.src}')"
     >
-      <svg
+      <!-- <svg
         class="size-24 text-gray-400 dark:text-gray-600"
         fill="none"
         stroke="currentColor"
@@ -45,7 +47,7 @@
         xmlns="http://www.w3.org/2000/svg"
       >
         <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-      </svg>
+      </svg> -->
     </div>
   </div>
 </section>

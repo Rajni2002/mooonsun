@@ -12,7 +12,7 @@
 	<div class="flex items-center gap-4 text-gray-900 dark:text-white">
 		<!-- <div class="size-6 text-primary"> -->
 			<img
-				class="w-32"
+				class="w-52"
 				alt="Mooonsun logo"
 				src={logo}
 			/>
