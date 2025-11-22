@@ -1,11 +1,13 @@
 <script lang="ts">
-  import CTAtallyButton from "$lib/components/ui/CTAtallyButton.svelte"
+  import CTAtallyButton from "$lib/components/ui/CTAtallyButton.svelte";
   import content from "../content.json";
 
   const { hero } = content;
 </script>
 
-<section class="grid grid-cols-1 md:grid-cols-1 items-center gap-12 py-20 lg:py-32 px-4">
+<section
+  class="grid grid-cols-1 md:grid-cols-1 items-center gap-12 py-20 lg:py-32 px-4"
+>
   <div class="text-center">
     <h1
       class="text-gray-900 dark:text-white text-4xl md:text-6xl font-black leading-tight tracking-tighter mb-4"
@@ -31,23 +33,14 @@
     </div>
   </div>
   <div class="md:flex justify-center items-center">
-    <div
+    <video
       class="w-full md:w-10/12 mx-auto bg-center bg-no-repeat aspect-video bg-cover rounded-lg bg-gray-200 dark:bg-gray-800"
-      data-alt={hero.image.alt}
-			style="background-image: url('{hero.image.src}')"
+      src={hero.video.src}
+      muted
+      autoplay
+      playsinline
     >
-      <!-- <svg
-        class="size-24 text-gray-400 dark:text-gray-600"
-        fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        viewbox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-      </svg> -->
-    </div>
+      <track kind="captions" />
+    </video>
   </div>
 </section>

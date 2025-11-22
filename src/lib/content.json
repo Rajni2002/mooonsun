@@ -12,12 +12,12 @@
       "fbAppId": "123456789",
       "image": [
         {
-          "url": "https://example.com/image.jpg",
-          "width": "1200",
-          "height": "630",
-          "alt": "An image",
-          "type": "image/jpeg",
-          "secureUrl": "https://example.com/image.jpg"
+          "url": "https://mooonsun.com/og.webp",
+          "width": "2400",
+          "height": "1260",
+          "alt": "og image",
+          "type": "image/webp",
+          "secureUrl": "https://mooonsun.com/og.webp"
         }
       ],
       "video": [
@@ -91,7 +91,7 @@
     }
   },
   "hero": {
-    "heading": "Virtual Try-On on Your Store in 60 Seconds",
+    "heading": "Add Virtual Try-On to Your Store in a Blink",
     "description": "Plug in our AI-powered virtual try-on widget with a simple script tag and empower your e-commerce brand to boost conversions and slash returns.",
     "primaryCta": {
       "label": "Join Waitlist",
@@ -101,8 +101,8 @@
       "label": "Request Demo",
       "href": "#"
     },
-    "image": {
-      "src": "/hero-animation.gif",
+    "video": {
+      "src": "/hero-animation.webm",
       "alt": "Hero illustrator"
     }
   },
@@ -150,17 +150,17 @@
   },
   "featureShowcase": [
     {
-      "image": "/feature-2.png",
-      "alt": "Dashboard screenshot showing product SKU auto-detection",
-      "title": "Seamless SKU Detection",
-      "description": "Our widget auto-hooks into existing product pages—zero customization needed.",
-      "link": { "label": "Learn more", "href": "#" }
-    },
-    {
-      "image": "/feature-1.png",
+      "image": "/feature-1.webp",
       "alt": "Analytics dashboard displaying customer engagement data",
       "title": "Easy Plug and Play Integration with a Simple Script Tag",
       "description": "Add our virtual try-on widget to your ecommerce store with just one script tag—no backend changes or complex setup required.",
+      "link": { "label": "Learn more", "href": "#" }
+    },
+    {
+      "image": "/feature-2.webp",
+      "alt": "Dashboard screenshot showing product SKU auto-detection",
+      "title": "Seamless SKU Detection",
+      "description": "Our widget auto-hooks into existing product pages—zero customization needed.",
       "link": { "label": "Learn more", "href": "#" }
     }
   ],
