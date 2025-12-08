@@ -15,7 +15,7 @@
       {hero.heading}
     </h1>
     <p
-      class="max-w-xl text-gray-600 dark:text-gray-400 text-lg md:text-xl leading-relaxed mb-8 mx-auto"
+      class="max-w-xl text-gray-600 dark:text-gray-400 text-lg md:text-2xl leading-relaxed mb-8 mx-auto"
     >
       {hero.description}
     </p>
@@ -24,11 +24,6 @@
         class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors"
       >
         <span class="truncate">{hero.primaryCta.label}</span>
-      </CTAtallyButton>
-      <CTAtallyButton
-        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors"
-      >
-        <span class="truncate">{hero.secondaryCta.label}</span>
       </CTAtallyButton>
     </div>
   </div>

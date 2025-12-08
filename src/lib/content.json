@@ -86,19 +86,19 @@
   "header": {
     "nav": [{ "label": "Features", "href": "#features" }],
     "cta": {
-      "label": "Request a Demo",
+      "label": "Book a Call",
       "href": "#"
     }
   },
   "hero": {
-    "heading": "Add Virtual Try-On to Your Store in a Blink",
-    "description": "Plug in our AI-powered virtual try-on widget with a simple script tag and empower your e-commerce brand to boost conversions and slash returns.",
+    "heading": "Let customers see clothes on them before buying",
+    "description": "For apparel & fashion e-commerce brands",
     "primaryCta": {
       "label": "Join Waitlist",
       "href": "#"
     },
     "secondaryCta": {
-      "label": "Request Demo",
+      "label": "Book a Call",
       "href": "#"
     },
     "video": {
@@ -133,12 +133,12 @@
     "items": [
       {
         "icon": "bolt",
-        "title": "Quick Integration",
+        "title": "Connect in 5 minutes, zero coding needed",
         "description": "Add one script tag—no backend changes, no development headaches."
       },
       {
         "icon": "model_training",
-        "title": "AI-Driven Try-On",
+        "title": "Detects fit & size automatically — personalized for each customer",
         "description": "Automatically detects product SKUs and renders an on-photo try-on experience."
       },
       {

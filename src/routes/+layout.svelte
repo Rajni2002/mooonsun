@@ -5,6 +5,7 @@
   import iconApple from "$lib/assets/apple-touch-icon.png";
   import webManifest from "$lib/assets/site.webmanifest";
   import { injectAnalytics } from "@vercel/analytics/sveltekit";
+  import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
   import { dev } from "$app/environment";
   import content from "../lib/content.json";
   import Seo from "$lib/components/Seo.svelte";
@@ -14,6 +15,9 @@
   let { children } = $props();
   // Inject the Analytics functionality
   injectAnalytics({ mode: dev ? "development" : "production" });
+  if(!dev){
+    injectSpeedInsights()
+  }
 </script>
 
 <Seo metatag={metaInfo} />

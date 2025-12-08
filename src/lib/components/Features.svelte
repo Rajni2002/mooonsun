@@ -30,9 +30,9 @@
 				>
 					{item.title}
 				</h3>
-				<p class="text-gray-600 dark:text-gray-400">
+				<!-- <p class="text-gray-600 dark:text-gray-400">
 					{item.description}
-				</p>
+				</p> -->
 			</div>
 		{/each}
 	</div>
