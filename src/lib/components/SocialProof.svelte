@@ -16,6 +16,9 @@
 				class="h-8 opacity-50 dark:opacity-40"
 				alt={logo.alt}
 				src={logo.src}
+				loading="lazy"
+				width="120"
+				height="32"
 			/>
 		{/each}
 	</div>

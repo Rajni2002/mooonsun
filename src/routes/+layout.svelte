@@ -28,11 +28,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
   <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
   <link rel="manifest" href={webManifest} />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Mooonsun" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <script
     src="https://cdn.tailwindcss.com?plugins=forms,container-queries"
   ></script>
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://tally.so" rel="dns-prefetch" />
   <link
     href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&display=swap"
     rel="stylesheet"

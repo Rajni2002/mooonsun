@@ -34,6 +34,8 @@
       muted
       autoplay
       playsinline
+      aria-label={hero.video.alt}
+      preload="metadata"
     >
       <track kind="captions" />
     </video>

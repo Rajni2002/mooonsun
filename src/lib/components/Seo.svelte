@@ -16,12 +16,17 @@
 		custom
 	} = metatag;
 
-	const getLdJson = () => JSON.stringify(ldJson);
+	const getLdJson = () => {
+		if (Array.isArray(ldJson)) {
+			return JSON.stringify(ldJson);
+		}
+		return JSON.stringify(ldJson);
+	};
 </script>
 
 <svelte:head>
 	<title>{title}</title>
-	<link rel="canonical" href={canonical || page.url.href} />
+	<link rel="canonical" href="https://mooonsun.com" />
 	<meta name="language" content={language} />
 	<meta name="description" content={description} />
 
@@ -34,6 +39,14 @@
 
 	<meta name="robots" content={follow ? 'index,follow' : 'noindex,nofollow'} />
 	<meta name="url" content={page.url.href} />
+	<meta name="theme-color" content="#0500f1" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta http-equiv="content-language" content={language} />
+	<!-- Google Search Console verification - replace with actual verification code -->
+	<!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" /> -->
+	<!-- Bing Webmaster verification - replace with actual verification code -->
+	<!-- <meta name="msvalidate.01" content="YOUR_VERIFICATION_CODE" /> -->
 
 	{#each custom ?? [] as tag}
 		{#if tag.content}
@@ -47,6 +60,7 @@
 	<meta property="og:url" content={page.url.href} />
 	<meta property="og:type" content={og.type} />
 	<meta property="og:locale" content={language} />
+	<meta property="og:updated_time" content={new Date().toISOString()} />
 	{#if og.fbAppId}
 		<meta property="fb:app_id" content={og.fbAppId} />
 	{/if}
@@ -124,11 +138,13 @@
 	{#each x?.image ?? [] as image}
 		{#if image.url}
 			<meta name="twitter:image" content={image.url} />
+			<meta name="twitter:image:src" content={image.url} />
 		{/if}
 		{#if image.alt}
 			<meta name="twitter:image:alt" content={image.alt} />
 		{/if}
 	{/each}
+	<meta name="twitter:domain" content="mooonsun.com" />
 
 	{#each x?.player ?? [] as player}
 		{#if player.url}
@@ -145,7 +161,7 @@
 		{/if}
 	{/each}
 
-	{#if ldJson}
+	{#if ldJson && (Array.isArray(ldJson) ? ldJson.length > 0 : Object.keys(ldJson).length > 0)}
 		{@html `<script type="application/ld+json">${getLdJson()}</script>`}
 	{/if}
 </svelte:head>

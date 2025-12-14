@@ -12,6 +12,9 @@
 			class="size-24 rounded-full"
 			alt={founderStory.alt}
 			src={founderStory.image}
+			loading="lazy"
+			width="96"
+			height="96"
 		/>
 		<div>
 			<p

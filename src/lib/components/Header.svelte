@@ -15,6 +15,8 @@
 				class="w-52"
 				alt="Mooonsun logo"
 				src={logo}
+				width="208"
+				height="48"
 			/>
 		<!-- </div> -->
 		<!-- <h2
@@ -24,15 +26,16 @@
 		</h2> -->
 	</div>
 	<div class="hidden md:flex flex-1 justify-end gap-8">
-		<div class="flex items-center gap-9">
+		<nav class="flex items-center gap-9" aria-label="Main navigation">
 			{#each header.nav as item}
 				<a
 					class="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white text-sm font-medium leading-normal"
 					href={item.href}
+					aria-label={`Navigate to ${item.label}`}
 					>{item.label}</a
 				>
 			{/each}
-		</div>
+		</nav>
 		<CTAtallyButton
 			class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors"
 		>

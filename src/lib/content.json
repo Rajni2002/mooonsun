@@ -1,7 +1,7 @@
 {
   "metaInfo": {
-    "title": "Mooonsun",
-    "description": "Add Virtual try on on your store in 60s",
+    "title": "Mooonsun - Virtual Try-On for Fashion E-commerce | See Clothes Before Buying",
+    "description": "Let customers see clothes on them before buying. Add virtual try-on to your store in 60s with zero coding. Increase conversions and reduce returns for apparel & fashion e-commerce brands.",
     "keywords": ["saas", "micro-saas", "Virtual try on"],
     "author": "Rajnikant dash",
     "follow": true,
@@ -45,8 +45,8 @@
       "card": "summary_large_image",
       "image": [
         {
-          "url": "https://example.com/image.jpg",
-          "alt": "An image"
+          "url": "https://mooonsun.com/og.webp",
+          "alt": "Mooonsun - Virtual Try-On for E-commerce"
         }
       ],
       "player": [
@@ -58,24 +58,67 @@
         }
       ]
     },
-    "ldJson": {
-      "image": {
-        "url": "https://example.com/image.jpg",
-        "width": "1280",
-        "height": "720"
-      },
-      "author": {
-        "name": "Your Name"
-      },
-      "publisher": {
-        "name": "Your Name",
-        "logo": {
-          "url": "https://example.com/image.jpg",
-          "width": "1280",
-          "height": "720"
+    "ldJson": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Mooonsun",
+        "url": "https://mooonsun.com",
+        "logo": "https://mooonsun.com/logo.svg",
+        "sameAs": [
+          "https://www.instagram.com/mooonsunofficial/"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "rajnikant.dash@mooonsun.com"
         }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mooonsun",
+        "url": "https://mooonsun.com",
+        "description": "Let customers see clothes on them before buying. Add virtual try-on to your store in 60s with zero coding. Increase conversions and reduce returns for apparel & fashion e-commerce brands.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://mooonsun.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Mooonsun Virtual Try-On",
+        "applicationCategory": "E-commerce Software",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Add Virtual try on on your store in 60s. Connect in 5 minutes, zero coding needed.",
+        "url": "https://mooonsun.com",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "100"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Mooonsun Virtual Try-On Demo",
+        "description": "See how customers can try on clothes before buying with Mooonsun's virtual try-on technology",
+        "thumbnailUrl": "https://mooonsun.com/og.webp",
+        "uploadDate": "2025-01-27",
+        "contentUrl": "https://mooonsun.com/hero-animation.webm",
+        "embedUrl": "https://mooonsun.com/hero-animation.webm"
       }
-    }
+    ]
   },
   "brand": {
     "name": "Mooonsun",
